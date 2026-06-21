@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek Bio Card.com</title>
+    <link rel="stylesheet" href="shrek.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <main class="page">
+        <section class="profile-card" aria-labelledby="profile-name">
+            <div class="profile-card__image-panel">
+                <img
+                    class="profile-card__photo"
+                    src="media/shrek_PNG4.png"
+                    alt="Shrek smiling"
+                >
+            </div>
+
+            <div class="profile-card__content">
+                <p class="profile-card__eyebrow">Ogre Swamp Resident</p>
+                <h1 id="profile-name">Shrek</h1>
+
+                <p class="profile-card__intro">
+                    Friendly, private, and surprisingly skilled at building things from wood.
+                </p>
+
+                <h2>Fun facts</h2>
+                <ul class="fact-list">
+                    <li>34 years old</li>
+                    <li>Lives in Ogre Swamp</li>
+                    <li>Married to Princess Fiona</li>
+                    <li>Has woodworking skills</li>
+                </ul>
+
+                <form class="message-form" action="#" method="post">
+                    <label for="message">Send a message</label>
+                    <div class="message-form__row">
+                        <input
+                            id="message"
+                            name="message"
+                            type="text"
+                            placeholder="Hello, Shrek!"
+                        >
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.body{
+    margin: 0;
+}
+.card{
+    width: 450px;
+    display:flex;
+    background-color: beige;
+    margin:0 auto;
+    border: 2px solid beige ;
+    border-radius: 20px;
+    border-bottom: 4px solid greenyellow;
+}
+.image_container{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    background-color: white;
+    border: 3px solid green;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.info_cotainer{
+    display: block;
+    font-family: 'Segoe UI',;
+    
+
+}
+
+.center{
+    text-align: center;
+}
